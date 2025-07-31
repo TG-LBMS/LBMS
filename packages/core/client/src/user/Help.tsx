@@ -48,30 +48,8 @@ const SettingsMenu: React.FC<{
       key: 'divider_1',
       type: 'divider',
     },
-    {
-      key: 'homePage',
-      label: (
-        <a
-          href={isSimplifiedChinese ? 'mayratechnologies.com/cn/' : 'mayratechnologies.com'}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {t('Home page')}
-        </a>
-      ),
-    },
-    {
-      key: 'userManual',
-      label: (
-        <a
-          href={isSimplifiedChinese ? 'mayratechnologies.com/handbook' : 'https://docs.nocobase.com/handbook'}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {t('Handbook')}
-        </a>
-      ),
-    },
+    
+   
     {
       key: 'license',
       label: (
