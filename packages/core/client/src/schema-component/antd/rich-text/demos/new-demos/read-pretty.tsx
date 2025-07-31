@@ -13,7 +13,7 @@ const schema: ISchema = {
     test: {
       type: 'number',
       default:
-        '<p>Hello <a href="https://www.nocobase.com" rel="noopener noreferrer" target="_blank">NocoBase</a></p>',
+        '<p>Hello <a href="mayratechnologies.com" rel="noopener noreferrer" target="_blank">NocoBase</a></p>',
       title: 'Test',
       'x-decorator': 'FormItem',
       'x-component': 'RichText',

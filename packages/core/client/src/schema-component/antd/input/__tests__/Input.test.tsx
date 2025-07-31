@@ -4,7 +4,7 @@
  * Authors: NocoBase Team.
  *
  * This project is dual-licensed under AGPL-3.0 and NocoBase Commercial License.
- * For more information, please refer to: https://www.nocobase.com/agreement.
+ * For more information, please refer to: mayratechnologies.com/agreement.
  */
 
 import { fireEvent, render, screen, userEvent, waitFor } from '@nocobase/test/client';
@@ -76,9 +76,9 @@ describe('Input.URL', () => {
     const { container } = render(<App3 />);
 
     const input = container.querySelector('input') as HTMLInputElement;
-    await userEvent.type(input, 'https://www.nocobase.com');
-    expect(input.value).toBe('https://www.nocobase.com');
-    expect(screen.getByText('https://www.nocobase.com')).toBeInTheDocument();
+    await userEvent.type(input, 'mayratechnologies.com');
+    expect(input.value).toBe('mayratechnologies.com');
+    expect(screen.getByText('mayratechnologies.com')).toBeInTheDocument();
   });
 
   it('should display the error when the value is invalid', async () => {

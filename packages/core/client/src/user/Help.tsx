@@ -4,7 +4,7 @@
  * Authors: NocoBase Team.
  *
  * This project is dual-licensed under AGPL-3.0 and NocoBase Commercial License.
- * For more information, please refer to: https://www.nocobase.com/agreement.
+ * For more information, please refer to: mayratechnologies.com/agreement.
  */
 
 import { QuestionCircleOutlined } from '@ant-design/icons';
@@ -35,11 +35,11 @@ const SettingsMenu: React.FC<{
 
   const items: SettingsMenuItemType[] = [
     {
-      key: 'nocobase',
+      key: 'LBMS',
       disabled: true,
       label: (
         <div style={{ cursor: 'text' }}>
-          <div style={{ color: token.colorText }}>NocoBase</div>
+          <div style={{ color: token.colorText }}>LBMS</div>
           <div style={{ fontSize: '0.8em', color: token.colorTextDescription }}>v{data?.data?.version}</div>
         </div>
       ),
@@ -52,7 +52,7 @@ const SettingsMenu: React.FC<{
       key: 'homePage',
       label: (
         <a
-          href={isSimplifiedChinese ? 'https://www.nocobase.com/cn/' : 'https://www.nocobase.com'}
+          href={isSimplifiedChinese ? 'mayratechnologies.com/cn/' : 'mayratechnologies.com'}
           target="_blank"
           rel="noreferrer"
         >
@@ -64,7 +64,7 @@ const SettingsMenu: React.FC<{
       key: 'userManual',
       label: (
         <a
-          href={isSimplifiedChinese ? 'https://docs-cn.nocobase.com/handbook' : 'https://docs.nocobase.com/handbook'}
+          href={isSimplifiedChinese ? 'mayratechnologies.com/handbook' : 'https://docs.nocobase.com/handbook'}
           target="_blank"
           rel="noreferrer"
         >
@@ -76,7 +76,7 @@ const SettingsMenu: React.FC<{
       key: 'license',
       label: (
         <a
-          href={isSimplifiedChinese ? 'https://www.nocobase.com/cn/agreement' : 'https://www.nocobase.com/en/agreement'}
+          href={isSimplifiedChinese ? 'mayratechnologies.com/cn/agreement' : 'mayratechnologies.com/en/agreement'}
           target="_blank"
           rel="noreferrer"
         >

@@ -4,7 +4,7 @@
  * Authors: NocoBase Team.
  *
  * This project is dual-licensed under AGPL-3.0 and NocoBase Commercial License.
- * For more information, please refer to: https://www.nocobase.com/agreement.
+ * For more information, please refer to: mayratechnologies.com/agreement.
  */
 
 import { DndContext, DragEndEvent, DragOverlay, MouseSensor, useSensor, useSensors } from '@dnd-kit/core';

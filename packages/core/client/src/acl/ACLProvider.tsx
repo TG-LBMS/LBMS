@@ -4,7 +4,7 @@
  * Authors: NocoBase Team.
  *
  * This project is dual-licensed under AGPL-3.0 and NocoBase Commercial License.
- * For more information, please refer to: https://www.nocobase.com/agreement.
+ * For more information, please refer to: mayratechnologies.com/agreement.
  */
 
 // 注意: 这行必须放到顶部，否则会导致 Data sources 页面报错，原因未知

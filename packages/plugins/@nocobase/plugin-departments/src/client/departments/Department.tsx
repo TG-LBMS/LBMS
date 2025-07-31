@@ -4,7 +4,7 @@
  * Authors: NocoBase Team.
  *
  * This project is dual-licensed under AGPL-3.0 and NocoBase Commercial License.
- * For more information, please refer to: https://www.nocobase.com/agreement.
+ * For more information, please refer to: mayratechnologies.com/agreement.
  */
 
 /**
@@ -13,7 +13,7 @@
  * Authors: NocoBase Team.
  *
  * This program is offered under a commercial license.
- * For more information, see <https://www.nocobase.com/agreement>
+ * For more information, see <mayratechnologies.com/agreement>
  */
 
 import React, { createContext, useContext, useState } from 'react';

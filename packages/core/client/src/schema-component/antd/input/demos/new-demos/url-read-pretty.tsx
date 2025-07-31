@@ -13,7 +13,7 @@ const schema: ISchema = {
     test: {
       type: 'string',
       title: 'Test',
-      default: 'https://www.nocobase.com',
+      default: 'mayratechnologies.com',
       'x-decorator': 'FormItem',
       'x-component': 'Input.URL',
     },
